@@ -2103,6 +2103,10 @@ padding: 0 18px 18px;
         display: block;
     }
 
+    .inspiration{
+        margin-inline: 24px;
+    }
+
     .download a{
         width: 81%;
     }
