@@ -879,6 +879,7 @@ input{
     display: flex;
     flex-direction: row;
     justify-items: center;
+    gap: 15px;
 }
 
 .blog-item-card{
@@ -1643,7 +1644,7 @@ padding: 0 18px 18px;
     }
 
     .select-item{
-        flex-basis: 50%;
+        flex-basis: 48%;
         margin-bottom: 10px;
     }
 
@@ -2088,5 +2089,21 @@ padding: 0 18px 18px;
 
     .input-field{
         width: 66%;
+    }
+
+    .blog-cards{
+        gap: 15px;
+    }
+
+    .select-item{
+        flex-basis: 32%;
+    }
+
+    .select-mobile{
+        display: block;
+    }
+
+    .download a{
+        width: 81%;
     }
 }
